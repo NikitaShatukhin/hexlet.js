@@ -2,6 +2,7 @@
   "name": "hexlet",
   "type": "module",
   "version": "1.0.0",
+  "main": "src/index.js",
   "description": "Description of the project",
   "main": "index.js",
   "scripts": {
@@ -11,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
   }
 }

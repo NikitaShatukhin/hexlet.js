@@ -1,3 +1,11 @@
-console.log("hello, Hexlet!");
 import _ from 'lodash';
-console.log(_.last(['one','two']));
+function myFunction() {
+    console.log("hello, Hexlet!");
+    console.log(_.last(['one','two']));
+}
+
+export default myFunction;
+
+import myFunction from './src/index.js';
+
+myFunction();
